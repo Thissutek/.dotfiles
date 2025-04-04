@@ -3,8 +3,9 @@ local options = {
     lua = { "stylua" },
     css = { "prettier" },
     html = { "prettier" },
-    javascript = { "prettier"},
-    typescript = { "prettier"}
+    javascript = { "prettier" },
+    typescript = { "prettier" },
+    go = {"golangci-lint"},
   },
 
   format_on_save = {

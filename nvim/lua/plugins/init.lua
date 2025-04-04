@@ -24,6 +24,7 @@ return {
         "css",
         "javascript",
         "typescript",
+        "gopls",
       },
     },
   },
