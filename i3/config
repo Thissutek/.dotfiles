@@ -101,6 +101,7 @@ bindsym $mod+a focus parent
 # focus the child container
 #bindsym $mod+d focus child
 
+
 # # switch to workspace
 bindsym $mod+1 workspace 1
 bindsym $mod+2 workspace 2
@@ -231,7 +232,7 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen brightne
 bindsym $mod+Shift+comma exec ~/.config/i3/scripts/alsa restore
 bindsym $mod+semicolon exec ~/.config/i3/scripts/alsa down Headphone
 bindsym $mod+comma exec ~/.config/i3/scripts/alsa up Headphone
-# bindsym $mod+m move workspace to output left
+bindsym $mod+m move workspace to output left
 
 # Suspend
 bindsym $mod+Shift+period exec systemctl suspend
